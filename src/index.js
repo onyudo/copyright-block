@@ -27,6 +27,8 @@ const calendarIcon = (
  *
  * @see https://developer.wordpress.org/block-editor/reference-guides/block-api/block-registration/
  */
+import save from './save';
+
 registerBlockType( metadata.name, {
 	/**
 	 * @see ./edit.js
